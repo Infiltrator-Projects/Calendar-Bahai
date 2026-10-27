@@ -1,0 +1,68 @@
+{
+  "date": "2026-10-27",
+  "repository": "Calendar-Bahai",
+  "id": "bahai",
+  "name": "Bahai Badi Calendar",
+  "kind": "calendar",
+  "base_commit": "97deebbafd0cb6608bdb8908948ba171b130d140",
+  "model_checks": {
+    "repository": "Calendar-Bahai",
+    "id": "bahai",
+    "reference_cases": 0,
+    "reference_mismatches": 0,
+    "navigation_cases": 0,
+    "navigation_failures": 0,
+    "model_notes": []
+  },
+  "navigation": {
+    "repository": "Calendar-Bahai",
+    "id": "bahai",
+    "cases": 946,
+    "failures": 0
+  },
+  "external_comparisons": [
+    {
+      "repository": "Calendar-Bahai",
+      "reference": "BWC/HMNAO published 172-221 BE table",
+      "cases": 17898,
+      "mismatches": 0
+    }
+  ],
+  "undefined_behavior_and_invariants": {
+    "repository": "Calendar-Bahai",
+    "operations": 28364,
+    "invariant_failures": 0,
+    "exit": 0
+  },
+  "locale_rendering": {
+    "locales": 13,
+    "cases": 195,
+    "failures": 0
+  },
+  "independent_fixture_count": 116,
+  "authority_fixture_count": 0,
+  "corrections": [
+    "NOAA fractional-year phase now uses 366 days in leap years."
+  ],
+  "limitations": [
+    "All 50 published Naw-Ruz dates 2015-2064 agree; date-only JDN fields do not implement an intraday sunset day rollover. Outside the astronomical model range, the implementation falls back to 21 March.",
+    "Finite sampled checks establish only the stated model/ranges. They do not certify every historical region, all translations, every host ICU/CLDR release, or another operating system/architecture."
+  ],
+  "source_changes": [
+    "src/temporal_solar_compact.h"
+  ],
+  "baseline_cases_updated": 0,
+  "references": {
+    "calendrical": "https://reingold.co/calendars.shtml",
+    "convertdate": "https://convertdate.readthedocs.io/",
+    "ICU": "https://unicode-org.github.io/icu/userguide/datetime/calendar/",
+    "NOAA": "https://gml.noaa.gov/grad/solcalc/solareqns.PDF",
+    "USNO": "https://aa.usno.navy.mil/faq/GAST",
+    "NAOJ": "https://eco.mtk.nao.ac.jp/koyomi/wiki/C7F6CCC02FCCEBCCC0A4C8C6FCCAEB.html",
+    "BWC": "https://bahai-library.com/pdf/uhj/uhj_bahai_dates_172-221.pdf",
+    "HKO": "https://www.hko.gov.hk/en/gts/time/conversion.htm",
+    "KASI": "https://astro.kasi.re.kr/life/pageView/5?search_year=2017&search_month=02&search_dp=1&search_check=G",
+    "HijriDate": "https://hijridate.readthedocs.io/en/stable/background.html",
+    "Persian": "https://github.com/unicode-org/icu/blob/main/icu4c/source/i18n/persncal.cpp"
+  }
+}
