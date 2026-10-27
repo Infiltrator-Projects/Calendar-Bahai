@@ -1,0 +1,65 @@
+# SPDX-License-Identifier: GPL-3.0-or-later
+# Extracted only from this provider's private source.
+msgid "Ayym-i-H"
+msgstr ""
+
+msgid "Bah"
+msgstr ""
+
+msgid "Jall"
+msgstr ""
+
+msgid "Jaml"
+msgstr ""
+
+msgid "Aamat"
+msgstr ""
+
+msgid "Nr"
+msgstr ""
+
+msgid "Ramat"
+msgstr ""
+
+msgid "Kalimt"
+msgstr ""
+
+msgid "Kaml"
+msgstr ""
+
+msgid "Asm"
+msgstr ""
+
+msgid "Izzat"
+msgstr ""
+
+msgid "Mashyyat"
+msgstr ""
+
+msgid "Ilm"
+msgstr ""
+
+msgid "Qudrat"
+msgstr ""
+
+msgid "Qawl"
+msgstr ""
+
+msgid "Masil"
+msgstr ""
+
+msgid "Sharaf"
+msgstr ""
+
+msgid "Suln"
+msgstr ""
+
+msgid "Mulk"
+msgstr ""
+
+msgid "Al"
+msgstr ""
+
+#, c-format
+msgid "%d %s %lld B.E."
+msgstr ""
