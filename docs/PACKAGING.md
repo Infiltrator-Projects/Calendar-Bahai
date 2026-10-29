@@ -13,3 +13,6 @@ The native package has version `VERSION+native1`; the generic release uses `VERS
 The release workflow installs and tests the exact native `.run` on Ubuntu 24.04, seals the three qualified artifacts, stages a draft release, verifies every remotely uploaded byte, and publishes that draft. Published releases are immutable; product changes require advancing `VERSION`. A rerun for a superseded main commit does not publish.
 
 Translations use the provider-owned gettext domain `infiltrator-calendar-bahai`. The package ships only its own messages in `/usr/share/locale/<language>/LC_MESSAGES/infiltrator-calendar-bahai.mo`; Common’s combined translation package is not required. The exact compiled catalogues are checked through the provider ABI before packaging.
+
+## Two-file installed payload (v1.0.3)
+Install the native SO and illustrated PDF only. Do not package technical Markdown, BUILD-INFO or standalone locale catalogues; provenance is in X-Infiltrator control fields and translations are embedded in the module.
