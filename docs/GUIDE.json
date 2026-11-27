@@ -86,11 +86,12 @@
     }
   ],
   "example": "After day 19 of Mulk comes the intercalary interval, followed by Ala 1. Month names use simple Roman-letter spellings; transliterations vary.",
-  "history": "The Báb introduced the Badi calendar and Bahá'u'lláh confirmed it. Its month names reflect attributes of God. Religious days begin at sunset.",
-  "model": "The provider uses the Gregorian 21 March start in years 1–171 B.E. From 172 B.E., it computes the Tehran equinox/sunset boundary in the documented astronomical range.",
-  "limits": "The astronomical model covers Gregorian years 1000–3000, with fixed-rule continuation outside. It does not certify all historic observances or distant predictions.",
+  "history": "The Báb introduced the Badi calendar and Bahá'u'lláh confirmed it. Its month names reflect attributes of God.",
+  "model": "The provider uses the Gregorian 21 March start in years 1–171 B.E. From 172 B.E., it computes the Tehran equinox/sunset boundary in the documented astronomical range. Outside the documented astronomical range the continuation uses 21 March.",
+  "limits": "Astronomical calculations for Gregorian years 1000–3000 are approximate. Religious days begin at sunset, but the date-only day-number interface does not implement an intraday sunset rollover. A failed year-start calculation must not be represented as the 1844 epoch. The October 2026 audit matched 50 published Naw-Ruz dates (2015–2064), not every historical observance or distant prediction.",
   "sources": [
     "https://www.bahai.org/sw/action/devotional-life/calendar",
-    "https://github.com/Infiltrator-Projects/Calendar-Bahai"
+    "https://github.com/Infiltrator-Projects/Calendar-Bahai",
+    "Historical qualification: https://github.com/Infiltrator-Projects/Calendar-Bahai/blob/main/docs/FORENSIC-AUDIT.md"
   ]
 }
