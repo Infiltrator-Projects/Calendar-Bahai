@@ -1,13 +1,8 @@
 {
   "title": "Bahai Badi Calendar",
-  "intro": "The Badi calendar is the religious calendar of the Bahá'í Faith.",
-  "summary": "A solar calendar organised around nineteen months and an intercalary interval.",
+  "intro": "The Badi calendar is the religious solar calendar of the Bahá'í Faith.",
   "epoch": "The Bahá'í Era (B.E.) begins in 1844, linked to the declaration of the Báb. Naw-Rúz is the New Year.",
-  "year_rule": "Nineteen months each contain nineteen days (361 days). Ayyam-i-Ha adds four or five days between months 18 and 19, bringing the year to 365 or 366 days.",
-  "history": "The Báb introduced the Badi calendar and Bahá'u'lláh confirmed it. Its month names reflect attributes of God. Religious days begin at sunset.",
-  "limits": "The astronomical model covers Gregorian years 1000–3000, with fixed-rule continuation outside. It does not certify all historic observances or distant predictions.",
-  "source": "https://www.bahai.org/sw/action/devotional-life/calendar\nhttps://github.com/Infiltrator-Projects/Calendar-Bahai",
-  "example": "After day 19 of Mulk comes the intercalary interval, followed by Ala 1. Month names use simple Roman-letter spellings; transliterations vary.",
+  "structure": "Nineteen months each contain nineteen days (361 days). Ayyam-i-Ha adds four or five days between months 18 and 19, bringing the year to 365 or 366 days.",
   "sections": [
     {
       "name": "Baha",
@@ -90,5 +85,12 @@
       "days": "19 days"
     }
   ],
-  "model": "The provider uses the Gregorian 21 March start in years 1–171 B.E. From 172 B.E., it computes the Tehran equinox/sunset boundary in the documented astronomical range."
+  "example": "After day 19 of Mulk comes the intercalary interval, followed by Ala 1. Month names use simple Roman-letter spellings; transliterations vary.",
+  "history": "The Báb introduced the Badi calendar and Bahá'u'lláh confirmed it. Its month names reflect attributes of God. Religious days begin at sunset.",
+  "model": "The provider uses the Gregorian 21 March start in years 1–171 B.E. From 172 B.E., it computes the Tehran equinox/sunset boundary in the documented astronomical range.",
+  "limits": "The astronomical model covers Gregorian years 1000–3000, with fixed-rule continuation outside. It does not certify all historic observances or distant predictions.",
+  "sources": [
+    "https://www.bahai.org/sw/action/devotional-life/calendar",
+    "https://github.com/Infiltrator-Projects/Calendar-Bahai"
+  ]
 }
